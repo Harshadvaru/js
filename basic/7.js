@@ -17,3 +17,15 @@ const bigNumber = 34569875632147896541236548n
 
 // Reference type (Non-Primitie)
 //Array,Objects,Functions,
+
+const heros = ["shaktiman","naagraj" , "doga"]; // array
+let myobj = { // object
+    name: "harshad",
+    age: 22,
+}
+
+const myFunction = function(){
+    console.log ("Hello World");
+}
+
+console.log(typeof myFunction);
