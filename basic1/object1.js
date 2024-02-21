@@ -1,8 +1,13 @@
 // singleton
 
 // object literals
-const jsUser = {
+
+const mySym = Symbol("key1")
+
+const JsUser = {
     name: "Harshad",
+    "Full name": "Harshad M. Varu", 
+    mySym : "mykey1",
     age: 18,
     location: "anand",
     email:"harshadvaru30@gmail.com",
@@ -10,5 +15,7 @@ const jsUser = {
     lastLoginDays: ["Monday","Saturday"]
 }
 
-console.log(jsUser.email)
-console.log(jsUser["email"])
+console.log(JsUser.email)
+console.log(JsUser["email"])
+console.log(JsUser["Full name"])
+console.log(typeof JsUser.mySym)
