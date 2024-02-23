@@ -28,8 +28,13 @@ const result = addTwoNumbers(3,5)
 
 // addTwoNumbers(3,"4")
 
-function loginUserMessage(username){
+function loginUserMessage(username = "sam"){
+    if(username === undefined){
+        console.log("Please enter a username");
+        return
+    }
     return `${username} just logged in`
 }
 
+// console.log(loginUserMessage("Harshad"))
 console.log(loginUserMessage("Harshad"))
