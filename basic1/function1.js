@@ -39,8 +39,9 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("Harshad"))
 // console.log(loginUserMessage("Harshad"))
 
-function calculateCarprice(num1){
+function calculateCarprice(...num1){
     return num1
 }
 
 console.log(calculateCarprice(200, 400, 500))
+
