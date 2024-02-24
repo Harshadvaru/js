@@ -39,6 +39,7 @@ function loginUserMessage(username = "sam"){
 // console.log(loginUserMessage("Harshad"))
 // console.log(loginUserMessage("Harshad"))
 
+// ... called rest & spread operatore
 function calculateCarPrice(val1, val2,...num1){
     return num1
 }
