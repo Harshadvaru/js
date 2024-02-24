@@ -47,12 +47,11 @@ function calculateCarPrice(val1, val2,...num1){
 
 const user = {
     username: "Harshad",
-    price: 199
+    prices: 199
 }
 
 function handleObject(anyobject){
-    console.log('username is ${anyobject.username} andd price is $
-    {anyobject.price}');
+    console.log(`Username is ${anyobject.username} andd price is ${anyobject.price}`);
 }
 
 handleObject(user)
