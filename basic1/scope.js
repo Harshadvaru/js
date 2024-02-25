@@ -1,6 +1,13 @@
+//  let a = 10 is outside of scope called galobal scope.
+
 let a = 10
-const b = 20
-var c = 30
+
+// if is local scope
+if (true) {
+    let a = 10
+    const b = 20
+    var c = 30
+}
 
 // scope is define {}
 
