@@ -7,7 +7,7 @@ let a = 100
 if (true) {
     let a = 10
     const b = 20
-    console.log("INNER: ",a);
+    // console.log("INNER: ",a);
 }
 
 // scope is define {}
@@ -39,7 +39,11 @@ if (true){
         const website = "youtube"
         console.log(username + website);
     }
-    console.log(website);
-}
+//     console.log(website);
+ }
 
-console.log(username);
+// console.log(username);
+
+// interesting
+
+function 
