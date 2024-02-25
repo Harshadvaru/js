@@ -46,4 +46,8 @@ if (true){
 
 // interesting
 
-function 
+function  addoone(num){
+    return num + 1 
+}
+
+addoone(5)
