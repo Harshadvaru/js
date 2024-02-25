@@ -1,6 +1,7 @@
 //  let a = 10 is outside of scope called galobal scope.
+//  where use scope of varible access or not in the program.
 
-let a = 10
+let a = 100
 
 // if is local scope
 if (true) {
@@ -13,6 +14,21 @@ if (true) {
 
 
 
-console.log(a);
+// console.log(a);
 // console.log(b);
 // console.log(c);
+
+
+function one(){
+    const username = "Harshad"
+    
+    function two(){
+        const website = "Youtube"
+        console.log(username);
+    }
+    // console.log(website);
+
+    //two()
+
+}
+one()
