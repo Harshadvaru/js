@@ -46,13 +46,17 @@ if (true){
 
 // interesting
 
-function  addoone(num){
+console.log(addone(5))
+
+function  addone(num){
     return num + 1 
 }
 
-addoone(5)
+// addone(5)
 
-// expression in js
+// expression in js addTwo is hold the value of variable
 const addTwo = function(num){
     return num + 2
 }
+
+addTwo(5)
