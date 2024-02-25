@@ -37,7 +37,7 @@ if (true){
     const username = "Harshad"
     if (username === "Harshad"){
         const website = "youtube"
-        console.log(username + website);
+        // console.log(username + website);
     }
 //     console.log(website);
  }
@@ -51,3 +51,8 @@ function  addoone(num){
 }
 
 addoone(5)
+
+// expression in js
+const addTwo = function(num){
+    return num + 2
+}
