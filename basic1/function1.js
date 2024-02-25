@@ -55,4 +55,17 @@ function handleObject(anyobject){
     console.log(`Username is ${anyobject.username} andd price is ${anyobject.price}`);
 }
 
-handleObject(user)
+// handleObject(user)
+handleObject({
+    username: "sam",
+    price: 399
+})
+
+const myNewArray = [200,300,400,1800]
+
+function returmSecondValue(getArray){
+    return getArray[3]
+}
+
+// console.log(returmSecondValue(myNewArray));
+console.log(returmSecondValue([200,300,400,1800]))
