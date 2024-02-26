@@ -48,7 +48,7 @@ const chai = () => {
 // const addTwo= (num1, num2) => (num1 + num2)
 // when ( brect) use for (num1 +num2) ; not use return keyword
 
-// create object in ths js
+// create object in ths js use of Aero function
 const addTwo= (num1, num2) => ({username : "Harshad"})
 
 console.log(addTwo(3,4));
