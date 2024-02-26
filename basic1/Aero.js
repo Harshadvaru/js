@@ -33,7 +33,7 @@ const user = {
 // }
 // chai()
 
-// aero function
+// aero function use this keyword return {empty string}
 const chai = () => {
     let username = "Harshad"
     console.log(this);
