@@ -34,4 +34,4 @@ Js is singal threaded
         val2 <-- 5
         addNum --> [new variable enviroment + Execution thread] After completing their work its delete the block. create box and once again create  Memory Phase and Execution Phase execute the process and perform operation]
 
-        callstack global executation usine LIFO
+        callstack global executation usine LIFO */
