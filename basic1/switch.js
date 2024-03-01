@@ -31,6 +31,9 @@ switch (month) {
     case "June":
         console.log("June");
         break;
+        case "June":
+            console.log("June");
+            break;
     default:
         console.log("defualt case Matched");
         break;
