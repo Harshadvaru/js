@@ -12,11 +12,12 @@ false,0,-0,BigInt 0n,"",null,undefined,NaN
 remaininng value is truthy valu.
 
 string 0 is truthy value,string in false value is true, function(){}, " ",[] */
-
+// check the array empty or not.
 if (userEmail.length === 0){
     console.log("Array is empty");
 }
 
+// check the obj empty or not.
 const emptyObj = {}
 
 if(Object.keys(emptyObj).length === 0){
