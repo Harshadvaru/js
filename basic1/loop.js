@@ -51,6 +51,7 @@ for (let index = 1; index <=20; index++) {
 
 
 // while loop 
+
 // let index =0 ;
 //  while (index <= 10) {
 //         console.log(`Value of index is ${index}`);
@@ -59,7 +60,6 @@ for (let index = 1; index <=20; index++) {
 
 
 // let myArray = ['Viru','Hitesh','Shyam']
-
 // let arr = 0
 // while (arr < myArray.length) {
 //     console.log(`Value is ${myArray[arr]}`);
@@ -68,6 +68,7 @@ for (let index = 1; index <=20; index++) {
 
 
 // do while loop
+
 // define the score
 let score = 11
 do {
