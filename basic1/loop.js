@@ -96,12 +96,12 @@ for (let index = 1; index <=20; index++) {
 
 // Maps value not repeat only unique value use
 
-const map = new Map()
-map.set('IN',"INDIA")
-map.set('USA',"UNITED STATE")
-map.set('FR',"FRANCE")
-map.set('SA',"SOUTH AFRICA")
-map.set('IN',"INDIA")
+// const map = new Map()
+// map.set('IN',"INDIA")
+// map.set('USA',"UNITED STATE")
+// map.set('FR',"FRANCE")
+// map.set('SA',"SOUTH AFRICA")
+// map.set('IN',"INDIA")
 
 // console.log(map);
 // destructur the value
@@ -126,5 +126,6 @@ for (const key in myObject) {
 const programming = ["js","rb","py","java","cpp"]
 
 for (const key in programming){
-    console.log(programming[key]);
+    // console.log(programming[key]);
 }
+
