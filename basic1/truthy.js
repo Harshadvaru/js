@@ -6,3 +6,7 @@ if(userEmail){
 else{
     console.log("Don't have user email");
 }
+
+/* falsy values 
+false,0,-0,BigInt 0n,"",null,undefined,NaN
+remaininng value is truthy valu.,
