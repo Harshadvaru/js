@@ -21,13 +21,13 @@ for (let i = 0; i <= 10; i++) {
     }   
 }
 
-let myArray = ["flash","batman","superman"]
-// console.log(myArray.length);
-for (let index = 0; index < myArray.length; index++) {
-    const element = myArray[index];
-    // console.log(element);
+// let myArray = ["flash","batman","superman"]
+ // console.log(myArray.length);
+// for (let index = 0; index < myArray.length; index++) {
+//     const element = myArray[index];
+//     // console.log(element);
     
-}
+//}
 
 //  break and continue
 
@@ -51,8 +51,19 @@ for (let index = 1; index <=20; index++) {
 
 
 // while loop 
-let index =0 ;
- while (index <= 10) {
-        console.log(`Value of index is ${index}`);
-        index = index + 2
- }
+// let index =0 ;
+//  while (index <= 10) {
+//         console.log(`Value of index is ${index}`);
+//         index = index + 2
+// }
+
+
+let myArray = ['Viru','Hitesh','Shyam']
+
+let arr = 0
+while (arr < myArray.length) {
+    console.log(`Value is ${myArray[arr]}`);
+    arr = arr + 1
+}
+
+
