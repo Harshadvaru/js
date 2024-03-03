@@ -45,10 +45,10 @@ const debitCard = true
 const loggedInFromGoogle = false
 const loggedInFromEmail = true
 
+// && and operation
 if(userLogIn && debitCard && 2==3) {
     console.log("Allow to buy Course");
 }
-// && and operation
 
 // || or operration
 if(loggedInFromGoogle || loggedInFromEmail){
