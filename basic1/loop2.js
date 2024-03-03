@@ -8,3 +8,5 @@ map.set('IN',"INDIA")
 for (const key in map) {
      console.log(key);
 }
+
+// object for in loop or array ke upar for off loop 
