@@ -58,12 +58,19 @@ for (let index = 1; index <=20; index++) {
 // }
 
 
-let myArray = ['Viru','Hitesh','Shyam']
+// let myArray = ['Viru','Hitesh','Shyam']
 
-let arr = 0
-while (arr < myArray.length) {
-    console.log(`Value is ${myArray[arr]}`);
-    arr = arr + 1
-}
+// let arr = 0
+// while (arr < myArray.length) {
+//     console.log(`Value is ${myArray[arr]}`);
+//     arr = arr + 1
+// }
 
 
+// do while loop
+// define the score
+let score = 11
+do {
+    console.log(`Score is ${score}`);
+    score++
+} while(score <= 10);
