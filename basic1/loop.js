@@ -111,7 +111,13 @@ map.set('IN',"INDIA")
 // }
 
 const myObject = {
-    game1 : 'NFS',
-    game2 : 'Spiderman'
+    js: 'javascript',
+    cpp: 'C++',
+    rb: 'ruby',
+    swift: 'swift by apple'
+}
+
+for (const key in object) {
+    console.log(key;)
 }
 
