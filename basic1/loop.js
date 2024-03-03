@@ -70,8 +70,48 @@ for (let index = 1; index <=20; index++) {
 // do while loop
 
 // define the score
-let score = 11
-do {
-    console.log(`Score is ${score}`);
-    score++
-} while(score <= 10);
+// let score = 11
+// do {
+//     console.log(`Score is ${score}`);
+//     score++
+// } while(score <= 10);
+
+
+// for of loop arrray and object loop high end loop
+
+// for off
+// ["","",""]
+// [{},{},{}]
+
+// const arr = [1,2,3,4,5]
+// // kish pe loop lagana 
+// for (const num of arr) {
+//     console.log(num);
+// }
+
+// const greetings = "Hello world!"
+// for (const greet of greetings) {
+//     console.log(`Each char is ${greet}`)
+// }
+
+// Maps value not repeat only unique value use
+
+const map = new Map()
+map.set('IN',"INDIA")
+map.set('USA',"UNITED STATE")
+map.set('FR',"FRANCE")
+map.set('SA',"SOUTH AFRICA")
+map.set('IN',"INDIA")
+
+// console.log(map);
+// destructur the value
+
+// for (const [key,value] of map) {
+//     console.log(key, ':-',value);
+// }
+
+const myObject = {
+    game1 : 'NFS',
+    game2 : 'Spiderman'
+}
+
