@@ -117,7 +117,7 @@ const myObject = {
     swift: 'swift by apple'
 }
 
-for (const key in object) {
-    console.log(key;)
+for (const key in myObject) {
+    console.log(myObject[key]);
 }
 
