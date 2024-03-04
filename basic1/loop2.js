@@ -60,7 +60,7 @@ myCoding.forEach((item) => {
 
 //  console.log(values);
 // 1
-const myNums = [1,2,3,4,5,6,7,8,9,10]
+// const myNums = [1,2,3,4,5,6,7,8,9,10]
 
 // filter ke andar call back function milega
 
@@ -93,11 +93,29 @@ const books = [
     {title: 'Book Eight', genre: 'Non-Fiction', publish:1988,edition:2011}
 ];
 
-let userBooks = books.filter( (bk) => bk.genre === 'History')
-// there overwrite the function in this variable
- userBooks = books.filter( (bk) => { 
-    return bk.publish <= 2000 &&
-     bk.genre === 'History'
-})
+// books.forEach((bk) => {
+//     if (publish <= 2000) {
+//         books.push(bk)
+//     }
+// })
 
-console.log(userBooks);
+// let userBooks = books.filter( (bk) => bk.genre === 'History')
+// // there overwrite the function in this variable
+//  userBooks = books.filter( (bk) => { 
+//     return bk.publish <= 2000 &&
+//      bk.genre === 'History'
+// })
+
+// console.log(userBooks);
+
+
+const myNumbers  = [1,2,3,4,5,6,7,8,9,10] 
+// add 10 value when we open scope than use return  
+// const newNums = myNumbers.map( (num) => {return num + 10})
+
+// use chaining method multiple method use
+const newNum = myNumbers.map((num)=> num * 10)
+                        .map((num) => num + 1)
+                        .filter((num) => num >= 40)
+console.log(newNum);
+
