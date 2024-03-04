@@ -119,6 +119,8 @@ const books = [
 //                         .filter((num) => num >= 40)
 // console.log(newNum);
 
+
+// use reduce 
  const myNums =  [1,2,3]
 
 //  const myTotal = myNums.reduce(function (acc,curval){
@@ -129,4 +131,28 @@ const books = [
 // when we not open scope than not use the return
 const myTotal = myNums.reduce((acc, curr) => acc+curr, 0)
 
- console.log(myTotal);
+//  console.log(myTotal);
+
+
+const shoppingCart = [
+    {
+        itemName: "Js cource",
+        price: 2999
+    },
+    {
+        itemName: "React cource",
+        price: 2998
+    },
+    {
+        itemName: "Node cource",
+        price: 2900
+    },
+    {
+        itemName: "Express cource",
+        price: 2599
+    }
+]
+
+const priceTopay = shoppingCart.reduce((acc, item) => acc + item.price, 0)
+
+console.log(priceTopay);
