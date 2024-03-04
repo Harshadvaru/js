@@ -109,13 +109,21 @@ const books = [
 // console.log(userBooks);
 
 
-const myNumbers  = [1,2,3,4,5,6,7,8,9,10] 
-// add 10 value when we open scope than use return  
-// const newNums = myNumbers.map( (num) => {return num + 10})
+// const myNumbers  = [1,2,3,4,5,6,7,8,9,10] 
+// // add 10 value when we open scope than use return  
+// // const newNums = myNumbers.map( (num) => {return num + 10})
 
-// use chaining method multiple method use
-const newNum = myNumbers.map((num)=> num * 10)
-                        .map((num) => num + 1)
-                        .filter((num) => num >= 40)
-console.log(newNum);
+// // use chaining method multiple method use
+// const newNum = myNumbers.map((num)=> num * 10)
+//                         .map((num) => num + 1)
+//                         .filter((num) => num >= 40)
+// console.log(newNum);
 
+ const myNums =  [1,2,3]
+
+ const myTotal = myNums.reduce(function (acc,curval){
+    console.log(`acc: ${acc} and currval: ${curval}`);
+    return acc + curval
+ }, 0)
+
+ console.log(myTotal);
