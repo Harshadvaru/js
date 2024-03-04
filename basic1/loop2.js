@@ -11,7 +11,7 @@ for (const key in map) {
 
 // object for in loop or array ke upar for off loop 
 
-const coding =  ["js","ruby","java","python","cpp"]
+// const Coding =  ["js","ruby","java","python","cpp"]
 
 // callback function
 // coding.forEach( function (val) {
@@ -48,5 +48,33 @@ const myCoding = [
 ]
 // array ke andar object check kar
 myCoding.forEach((item) => {
-    console.log(item.languageName);
+//     console.log(item.languageName);
+ })
+
+//  const coding = ["js","ruby","java","python","cpp"]
+
+//  const values = coding.forEach ((item) => {
+//     // console.log(item);
+//     return item
+//  })
+
+//  console.log(values);
+
+const myNums = [1,2,3,4,5,6,7,8,9,10]
+
+// filter ke andar call back function milega
+
+// const newNums = myNums.filter((num) => {
+//     return num > 4
+// })
+
+// declare array
+const newNums = []
+// use forEach loop
+myNums.forEach( (num) => {
+    if(num > 4){
+        newNums.push(num)
+    }
 })
+// print the newNums
+console.log(newNums);
