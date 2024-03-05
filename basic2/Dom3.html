@@ -20,5 +20,16 @@
     addLanguage("Python")
     addLanguage("Typescript")
     addLanguage("Java")
+
+// optimal way to add value in using this approch
+
+    function addOptiLanguage(langName){
+        const li = document.createElement('li');
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language')
+        .appendChild(li);
+        
+    }
+    addLanguage("Ruby")
 </script>
 </html>
