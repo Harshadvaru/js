@@ -1,1 +1,3 @@
-document.querySelectorAll('.button')
+const button = document.querySelectorAll('.button')
+const body = document.querySelector("body")
+// console.log(button);
