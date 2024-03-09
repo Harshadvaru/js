@@ -1,0 +1,11 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background-color: #797978;
+    padding-left: 30px;
+  }
+
+#subt{
+    background-color: black;
+    color: white;
+  }

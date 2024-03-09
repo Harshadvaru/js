@@ -14,10 +14,18 @@ let numGuess = 1;
 
 let playGame = true;
 
-function validGuess(guess){
-    // method use for guess or validation
+function validateGuess(guess){
+    // method use for guess for validation
 }
 
 function checkGuess(guess){
+    // 
+}
+
+function displayGuess(guess){
     
+}
+
+function displayMessage(message){
+    // return the message
 }
