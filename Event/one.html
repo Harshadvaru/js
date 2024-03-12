@@ -9,17 +9,29 @@
     <h2>Amazing images</h2>
     <div>
         <ul id="images">
-            <li><img width="200px" id="photoshop" src="joshua.jpg" alt="Joshua"></li>
-            <li><img width="200px" id="photoshop" src="lee.jpg" alt="lee"></li>
-            <li><img width="200px" id="photoshop" src="luca.jpg" alt="luca"></li>
-            <li><img width="200px" id="photoshop" src="joshua.jpg" alt="Joshua"></li>
-            <li><img width="200px" id="photoshop" src="lee.jpg" alt="lee"></li>
-            <li><img width="200px" id="photoshop" src="luca.jpg" alt="luca"></li>
+            <li><img width="200px" id="photoshop" src="joshua.jpg" alt="Joshua" onclick="alert('You click on Joshua')"></li> // first approach to give Events
+            <li><img width="200px" id="photoshop1" src="lee.jpg" alt="lee"></li>
+            <li><img width="200px" id="photoshop2" src="luca.jpg" alt="luca"></li>
+            <li><img width="200px" id="photoshop3" src="joshua.jpg" alt="Joshua"></li>
+            <li><img width="200px" id="photoshop4" src="lee.jpg" alt="lee"></li>
+            <li><img width="200px" id="photoshop5" src="luca.jpg" alt="luca"></li>
             <li><a style="color: aliceblue;" href="https://google.com" id="google">Google</a></li>
         </ul>
     </div>
 </body>
 <script>
-    
+    // 2nd approach to give the event
+    document.getElementById('photoshop1').onclick = function(){
+        alert("lee clicked")
+    }
+
+    // 3rd approach to give the event    
+    document.getElementById('photoshop2').addEventListener('click', function(){
+        alert("luca clicked")
+    }) 
+
+    // attachement // attachEvent()
+    // jquery framework use 
+
 </script>
 </html>
