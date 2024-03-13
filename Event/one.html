@@ -22,21 +22,42 @@
 </body>
 <script>
     // 2nd approach to give the event
-    document.getElementById('photoshop1').onclick = function(){
-        alert("lee clicked")
-    }
+    // document.getElementById('photoshop1').onclick = function(){
+    //     alert("lee clicked")
+    // }
 
-    // 3rd approach to give the event    
-    document.getElementById('photoshop2').addEventListener('click', function(){
-        alert("luca clicked")
-    }) 
+    // // 3rd approach to give the event    
+    // document.getElementById('photoshop2').addEventListener('click', function(){
+    //     alert("luca clicked")
+    // },true) 
 
-    // attachement // attachEvent()
-    // jquery framework use 
+    // // attachement // attachEvent()
+    // // jquery framework use 
 
-    document.getElementById('photoshop4').addEventListener('click',function(e){
-        console.log(e);
-    },false)
+    // document.getElementById('photoshop4').addEventListener('click',function(e){
+    //     console.log(e);
+    // },true)
+
+    // document.getElementById('google').addEventListener
+    // ('click',function(e){
+    //     e.preventDefault()
+    //     console.log("google Clicked");
+    // },false)
+
+    document.getElementById('photoshop2').addEventListener('click', function(e){
+        console.log("clicked inside the ul");
+    }, false)
+
+    document.getElementById('photoshop3').addEventListener('click', function(e){
+        console.log("owl clicked");
+        e.stopPropagation()
+    }, false)
+    
+    document.getElementById('google').addEventListener('click',function(e){
+        e.preventDefault();
+        e.stopPropagation()
+        console.log("google clicked");
+    }, false)
 
 </script>
 </html>
