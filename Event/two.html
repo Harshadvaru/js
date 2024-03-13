@@ -10,8 +10,21 @@
     <button id="stop">Stop</button>
 </body>
 <script>
-    setTimeout(function(){
+    // setTimeout(function(){
+    //     console.log("Harshad");
+    // },2000)
+
+    const sayHarshad = function(){
         console.log("Harshad");
-    },2000)
+    }
+    // document.querySelector('h1').innerHTML = "Harshad Varu"
+
+    const changeText = function(){
+        document.querySelector('h1').innerHTML = "Harshad Varu."
+    }
+
+    const changeMe = setTimeout(changeText,2000)
+
+    clearTimeout(changeMe)
 </script>
 </html>
