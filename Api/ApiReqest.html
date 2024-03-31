@@ -16,7 +16,11 @@
         // create a obj
         const reqestUrl = 'https://api.github.com/users/hiteshchoudhary'
         const  xhr = new XMLHttpRequest()
+        // send the reqest when they required
         xhr.open('GET',reqestUrl)
-        xhr.send()
+        xhr.onreadystatechange = function(){
+            console.log(xhr.readyState);
+        }
+        xhr.send();
     </script>
 </html>
