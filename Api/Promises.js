@@ -1,1 +1,1 @@
-const promiseOne = new Promise
+const promiseOne = new Promise()
