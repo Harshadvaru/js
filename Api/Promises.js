@@ -66,4 +66,11 @@ const promiseFive = new Promise(function(resolve,reject){
             reject('ERROR: JAVASCRIPT went wrong')
         }
     }, 1000)
-})
+});
+
+async function consumePromiseFive(){
+    const response = await promiseFive
+    console.log(response);
+}
+
+consumePromiseFive()
