@@ -1,19 +1,13 @@
-const promiseOne = new Promise(function(resolve, reject){
-    // Do an async 
-    // DB calls, cryptography, network
-    setTimeOut(function(){
+const promiseOne = new Promise(function(resolved, reject){
+    // do an async task
+    // do calls, cryptography, network
+    setTimeout(function(){
         console.log('Async task is complete');
-    }, 1000) 
-})
+    }, 1000)
+})  // create new instance using new keyword
 
-promisesOne.then(function(){
+// consume the promiseOne
+
+promiseOne.then(function(){
     console.log("Promise consumed");
 })
-
-new Promise(function(resolve, reject){
-    setTimeout(function(){
-        console.log("Async task 2");
-        resolve()
-    },1000)
-})
- 
