@@ -22,3 +22,24 @@ new Promise(function(resolve, reject){
 }).then(function(){
     console.log("Async 2 resolved");
 })
+
+const promiseThree = new Promise(function(resolved, reject){
+    setTimeout(function(){
+        resolved({username: "Chai", email:"harshadvaru40@gmail.com"})
+    }, 1000)
+})
+
+promiseThree.then(function(user){
+    console.log(user);
+})
+
+const promiseFour = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error = true
+        if (!error) {
+            resolve({username: "Harshad", password:"1234"})
+        } else {
+            reject('ERROR: Something went wrong')
+        }
+    }, 1000)
+})
