@@ -79,3 +79,10 @@ async function consumePromiseFive(){
 }
 
 consumePromiseFive()
+
+async function getAllUsers(){
+    const response = await fetch()
+    const data = response.json()
+    console.log(data);
+}
+getAllUsers()
