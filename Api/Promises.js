@@ -49,4 +49,6 @@ promiseFour.then((user) => {
     return user.username
 }).then((username) => {
     console.log(username);
+}).catch(function(error){
+    console.log(error);
 })
