@@ -56,3 +56,14 @@ promiseFour
     console.log(error);
 })
 .finally(() => console.log("The promise is either resolved or rejected"))
+
+const promiseFive = new Promise(function(resolve,reject){
+    setTimeout(function(){
+        let error = true
+        if (!error) {
+            resolve({username: "JAVASCRIPT", password:"124"})
+        } else {
+            reject('ERROR: JAVASCRIPT went wrong')
+        }
+    }, 1000)
+})
