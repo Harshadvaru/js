@@ -44,7 +44,9 @@ const promiseFour = new Promise(function(resolve,reject){
     }, 1000)
 })
 
-const username = promiseFour.then((user) => {
+promiseFour.then((user) => {
     console.log(user);
     return user.username
+}).then((username) => {
+    console.log(username);
 })
